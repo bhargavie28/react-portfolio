@@ -1,5 +1,6 @@
 import React from "react";
 import { stackList } from "../../data/ProjectData";
+import ProfileImage from "../../Assets/bhargavi.png"
 import {
   Image,
   Technologies,
@@ -15,7 +16,7 @@ function About() {
         <div className="SectionTitle">About Me</div>
         <div className="BigCard">
           <Image
-            src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/man-svgrepo-com.svg"
+            src={ProfileImage}
             alt="man-svgrepo"
           />
           <div className="AboutBio">

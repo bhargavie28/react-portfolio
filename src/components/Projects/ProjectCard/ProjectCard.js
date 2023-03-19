@@ -1,19 +1,20 @@
 import React from "react";
-// import { ProjectList } from "../../../data/ProjectData";
-// import {
-//   Card,
-//   CardLeft,
-//   CardRight,
-//   Stack,
-//   BtnGroup,
-// } from "./ProjectCardElements";
+import { ProjectList } from "../../../data/ProjectData";
+import ProjectImg from '../../../Assets/project-img.png';
+import {
+  Card,
+  CardLeft,
+  CardRight,
+  Stack,
+  BtnGroup,
+} from "./ProjectCardElements";
 function ProjectCard() {
   return (
     <>
-      {/* {ProjectList.map((list, index) => (
+      {ProjectList.map((list, index) => (
         <Card key={index}>
           <CardLeft>
-            <img src={list.img} alt={list.name} />
+            <img src={ProjectImg} alt={list.name} />
           </CardLeft>
           <CardRight>
             <h4>{list.title}</h4>
@@ -42,7 +43,7 @@ function ProjectCard() {
             </BtnGroup>
           </CardRight>
         </Card>
-      ))} */}
+      ))}
     </>
   );
 }
