@@ -1,12 +1,12 @@
 import React from "react";
-import { ProjectList } from "../../../data/ProjectData";
-import {
-  Card,
-  CardLeft,
-  CardRight,
-  Stack,
-  BtnGroup,
-} from "./ProjectCardElements";
+// import { ProjectList } from "../../../data/ProjectData";
+// import {
+//   Card,
+//   CardLeft,
+//   CardRight,
+//   Stack,
+//   BtnGroup,
+// } from "./ProjectCardElements";
 function ProjectCard() {
   return (
     <>
